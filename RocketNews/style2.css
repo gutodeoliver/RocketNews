@@ -1,0 +1,150 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    width: 1440px;
+    height: 780px;
+
+}
+
+.logo-rocketnews {
+    display: flex;
+    margin: 50px 0px 0px 30px;
+}
+
+.logo {
+    width: 389px;
+    height: 94px;
+}
+
+.main-background {
+    display: flex;
+    height: 100%;
+    align-items: left;
+}
+
+.column1 {
+    width: 720px;
+    height: 780px;
+}
+
+.column2 {
+    height: 100%;
+}
+
+.text-column1 {
+    margin: 73px 0px 0px 36px;
+}
+
+.p-text1 {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #08C05E;
+
+}
+
+.p-text2 {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 8px 0px 0px 0px;
+}
+
+.p-text3 {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 8px 0px 0px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 36px;
+    z-index: 2;
+}
+
+.label-form {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: #A8A8A8;
+}
+
+.container-buttom {
+    display: flex;
+    flex-direction: row;
+    width: 798px;
+    height: 48px;
+    z-index: 2;
+
+}
+
+.retangule-buttom1 {
+    width: 5px;
+    height: 48px;
+    background: #04D361;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.retangule-buttom2 {
+    width: 750px;
+    height: 48px;
+    background: white;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.retangule-buttom3 {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #8257E5;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.email-form {
+    width: 750px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+.buttom-send {
+    width: 24px;
+    height: 24px;
+    background: #8257E5;
+}
+
+.buttom {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.form-review {
+    display: flex;
+    margin: 52px 0px 0px 36px;   
+}
+
+.link-review {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    text-decoration: none;
+    color: #8257E5;
+}
